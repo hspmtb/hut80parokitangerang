@@ -82,7 +82,7 @@
 <body>
 <header class="site-header">
   <nav class="nav">
-    <div class="nav-brand">Paroki Tangerang <span class="badge80">HUT 80</span></div>
+    <div class="nav-brand">Paroki Santa Maria <span class="badge80">HUT 80</span></div>
     <button class="nav-toggle" id="siteNavToggle">☰</button>
     <div class="nav-links" id="siteNavLinks">
       <a href="index.html">Beranda</a>
@@ -271,8 +271,8 @@ function computeStatus(t){
    every anonymous visitor will use by default.
    ============================================================ */
 const DEFAULT_GH_CONFIG = {
-  owner:  'hspmtb',   // <-- EDIT: your GitHub username or org
-  repo:   'hut80parokitangerang',         // <-- EDIT: the repo that hosts this app + data
+  owner:  'YOUR_GITHUB_USERNAME',   // <-- EDIT: your GitHub username or org
+  repo:   'YOUR_REPO_NAME',         // <-- EDIT: the repo that hosts this app + data
   branch: 'main',                   // <-- EDIT if your default branch differs
   path:   'data/tasks.json'
 };
@@ -298,8 +298,7 @@ function isPlaceholderConfig(){
    ============================================================ */
 const USERS = [
   // username, sha256(password) — default: admin / admin123 — CHANGE THIS before publishing
-  { username: 'admin', hash: '7823c8b7d47f7fa403ff89f914520a686154de90ff9eabebea7a480a4a76203e' },
-  { username: 'panitia', hash: 'b8b668a65974dfdbb88abbfa9f5ffda03876bb0dcfd9cef2c2c90cc3844008ba' } 
+  { username: 'admin', hash: '7823c8b7d47f7fa403ff89f914520a686154de90ff9eabebea7a480a4a76203e' }
 ];
 
 async function sha256Hex(str){
@@ -489,13 +488,17 @@ function renderTable(){
     const actionCell = editor
       ? `<button class="secondary" data-act="edit" style="padding:4px 8px;">Edit</button>`
       : '';
+    const isDrillable = t.additional === 'Y';
+    const nameCell = isDrillable
+      ? `<a href="task-detail.html?id=${encodeURIComponent(t.id)}" title="View detail" style="color:var(--blue);font-weight:600;">${escapeHtml(t.name)} <span style="font-size:11px;">›</span></a>`
+      : escapeHtml(t.name);
     return `<tr data-id="${t.id}">
       <td>${i+1}</td>
-      <td>${escapeHtml(t.name)}</td>
+      <td>${nameCell}</td>
       <td>${escapeHtml(t.pic||'') || '—'}</td>
       <td>${fmtShort(t.start)}</td>
       <td>${fmtShort(t.end)}</td>
-      <td><span class="progress-bar"><span class="progress-fill" style="display: block; width:${t.progress}%; background-color: ${t.progress == 100 ? 'var(--success)' : '#999'};"></span></span> ${t.progress}%</td>
+      <td><span class="progress-bar"><span class="progress-fill" style="width:${t.progress}%"></span></span> ${t.progress}%</td>
       <td><span class="pill ${STATUS_CLASS[st]}">${STATUS_LABEL[st]}</span></td>
       <td>${actionCell}</td>
     </tr>`;
