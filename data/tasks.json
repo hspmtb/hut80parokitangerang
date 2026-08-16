@@ -24,7 +24,7 @@
       "name": "Penerbitan SK",
       "pic": "Romo & DPH",
       "start": "2026-08-01",
-      "end": "2026-08-21",
+      "end": "2026-08-31",
       "progress": 0,
       "notes": ""
     },
@@ -54,7 +54,7 @@
       "end": "2026-09-13",
       "progress": 0,
       "notes": ""
-    },	
+    },
     {
       "id": "t_mrt4dj9or3inr",
       "name": "Submit Anggaran SAPA",
@@ -73,7 +73,7 @@
       "progress": 0,
       "notes": "",
       "additional": "Y"
-    },	
+    },
     {
       "id": "t_mrt4ngadae1d8",
       "name": "Kick-Off Lomba Logo Paroki",
@@ -127,7 +127,7 @@
       "end": "2027-10-31",
       "progress": 0,
       "notes": ""
-    },	
+    },
     {
       "id": "t_mrt4gdxhji6ae",
       "name": "Riset Buku Sejarah Gereja",
@@ -181,7 +181,7 @@
       "end": "2028-01-31",
       "progress": 0,
       "notes": "- Konsep Misa\n- Undangan Romo, Bpk Uskup, Walikota, Dll"
-    },	
+    },
     {
       "id": "t_mrt4umo9rhxlq",
       "name": "Finishing Buku Sejarah",
@@ -208,7 +208,7 @@
       "end": "2028-04-30",
       "progress": 0,
       "notes": ""
-    },	
+    },
     {
       "id": "t_mrt4whgo3qycr",
       "name": "Launching Buku Sejarah 80Th Gereja",
