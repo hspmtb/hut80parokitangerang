@@ -56,15 +56,6 @@
       "notes": ""
     },
     {
-      "id": "t_mrt4dj9or3inr",
-      "name": "Submit Anggaran SAPA",
-      "pic": "Panitia Inti",
-      "start": "2026-09-15",
-      "end": "2026-09-30",
-      "progress": 0,
-      "notes": ""
-    },
-    {
       "id": "t_mrz0e9884wy4z",
       "name": "Persiapan Hymne / Mars",
       "pic": "Vero & Romo Kris",
@@ -74,6 +65,15 @@
       "notes": "",
       "additional": "Y"
     },
+    {
+      "id": "t_mrt4dj9or3inr",
+      "name": "Submit Anggaran SAPA",
+      "pic": "Panitia Inti",
+      "start": "2026-09-15",
+      "end": "2026-09-30",
+      "progress": 0,
+      "notes": ""
+    },    
     {
       "id": "t_mrt4ngadae1d8",
       "name": "Persiapan Perlombaan Logo Paroki",
@@ -101,6 +101,24 @@
       "progress": 0,
       "notes": ""
     },
+  {
+      "id": "t_mt742rp78rhqo",
+      "name": "Persiapan HUT79",
+      "pic": "Korbid Acara + Panitia Inti",
+      "start": "2027-02-01",
+      "end": "2027-02-28",
+      "progress": 0,
+      "notes": ""
+    },
+      {
+      "id": "t_mrz2oly8pdop9",
+      "name": "Rekaman Hymne / Mars",
+      "pic": "Vero & Talent",
+      "start": "2027-03-01",
+      "end": "2027-04-30",
+      "progress": 0,
+      "notes": ""
+    },
     {
       "id": "t_mrt4sv0qf4e0i",
       "name": "Pengumuman Pemenang Lomba Logo Paroki",
@@ -110,12 +128,12 @@
       "progress": 0,
       "notes": ""
     },
-    {
-      "id": "t_mrz2oly8pdop9",
-      "name": "Rekaman Hymne / Mars",
-      "pic": "Vero & Talent",
-      "start": "2027-03-01",
-      "end": "2027-04-30",
+      {
+      "id": "t_mt744u4wo9ufs",
+      "name": "Pemantapan & Acara HUT79",
+      "pic": "Korbid Acara & Inti",
+      "start": "2027-05-01",
+      "end": "2027-05-31",
       "progress": 0,
       "notes": ""
     },
@@ -242,24 +260,6 @@
       "pic": "Santhy, Panitia Inti",
       "start": "2028-05-01",
       "end": "2028-05-31",
-      "progress": 0,
-      "notes": ""
-    },
-    {
-      "id": "t_mt742rp78rhqo",
-      "name": "Persiapan HUT79",
-      "pic": "Korbid Acara + Panitia Inti",
-      "start": "2027-02-01",
-      "end": "2027-02-28",
-      "progress": 0,
-      "notes": ""
-    },
-    {
-      "id": "t_mt744u4wo9ufs",
-      "name": "Pemantapan & Acara HUT79",
-      "pic": "Korbid Acara & Inti",
-      "start": "2027-05-01",
-      "end": "2027-05-31",
       "progress": 0,
       "notes": ""
     }
